@@ -1,0 +1,275 @@
+{
+  "listStyle": {
+    "type": "radio",
+    "describe": "",
+    "title": "列表样式",
+    "data": [
+      {
+        "key": "1",
+        "value": "大图模式"
+      },
+      {
+        "key": "2",
+        "value": "一行两个"
+      },
+      {
+        "key": "3",
+        "value": "一行三个"
+      },
+      {
+        "key": "4",
+        "value": "详细列表"
+      },
+      {
+        "key": "5",
+        "value": "一大两小"
+      },
+      {
+        "key": "6",
+        "value": "横行滑动"
+      }
+    ]
+  },
+  "pageMargin": {
+    "type": "slider",
+    "describe": "商品、商品分类、图片广告、限时秒杀",
+    "title": "页面边距",
+    "data": {
+      "company": "像素",
+      "mix": 0,
+      "max": 30
+    }
+  },
+  "goodsMargin1": {
+    "type": "slider",
+    "describe": "商品、商品分类、限时秒杀",
+    "title": "商品间距",
+    "data": {
+      "company": "像素",
+      "mix": 0,
+      "max": 30
+    }
+  },
+  "goodsMargin2": {
+    "type": "slider",
+    "describe": "图片广告",
+    "title": "图片间距",
+    "data": {
+      "company": "像素",
+      "mix": 0,
+      "max": 30
+    }
+  },
+  "goodsStyle": {
+    "type": "radio",
+    "describe": "",
+    "title": "商品样式",
+    "data": [
+      {
+        "key": "1",
+        "value": "无边白底"
+      },
+      {
+        "key": "2",
+        "value": "卡片投影"
+      },
+      {
+        "key": "3",
+        "value": "描边白底"
+      },
+      {
+        "key": "4",
+        "value": "无边透明底"
+      }
+    ]
+  },
+  "goodsChamfer1": {
+    "type": "radio",
+    "describe": "限时秒杀",
+    "title": "商品倒角",
+    "data": [
+      {
+        "key": "1",
+        "value": "直角"
+      },
+      {
+        "key": "2",
+        "value": "圆角"
+      }
+    ]
+  },
+  "goodsChamfer2": {
+    "type": "radio",
+    "describe": "图片广告",
+    "title": "图片倒角",
+    "data": [
+      {
+        "key": "1",
+        "value": "直角"
+      },
+      {
+        "key": "2",
+        "value": "圆角"
+      }
+    ]
+  },
+  "goodsRatio": {
+    "type": "radio",
+    "describe": "",
+    "title": "图片比例",
+    "data": [
+      {
+        "key": "1",
+        "value": "3:2"
+      },
+      {
+        "key": "2",
+        "value": "1:1"
+      },
+      {
+        "key": "3",
+        "value": "3:4"
+      },
+      {
+        "key": "4",
+        "value": "16:9"
+      }
+    ]
+  },
+  "goodsFill": {
+    "type": "radio",
+    "describe": "",
+    "title": "图片填充",
+    "data": [
+      {
+        "key": "1",
+        "value": "填充",
+      },
+      {
+        "key": "2",
+        "value": "周边留白"
+      }
+    ]
+  },
+  "textStyle": {
+    "type": "radio",
+    "describe": "",
+    "title": "文本样式",
+    "data": [
+      {
+        "key": "1",
+        "value": "常规体",
+      },
+      {
+        "key": "2",
+        "value": "加粗体"
+      }
+    ]
+  },
+  "textAlign": {
+    "type": "radio",
+    "describe": "",
+    "title": "文本对齐",
+    "data": [
+      {
+        "key": "1",
+        "value": "左对齐",
+      },
+      {
+        "key": "2",
+        "value": "居中对齐"
+      }
+    ]
+  },
+  "showContents": {
+    "type": "checkbox",
+    "describe": "",
+    "title": "显示内容",
+    "data": [
+      {
+        "key": "1",
+        "value": "商品名称"
+      },
+      {
+        "key": "2",
+        "value": "商品描述"
+      },
+      {
+        "key": "3",
+        "value": "商品价格"
+      },
+      {
+        "key": "4",
+        "value": "商品原价"
+      },
+      {
+        "key": "5",
+        "value": "抢购倒计时"
+      },
+      {
+        "key": "6",
+        "value": "抢购进度条"
+      },
+      {
+        "key": "7",
+        "value": "限制规则"
+      },
+      {
+        "key": "8",
+        "value": "购买按钮",
+        "child": [
+          {
+            "key": "1",
+            "value": "样式1"
+          },
+          {
+            "key": "2",
+            "value": "样式2"
+          },
+          {
+            "key": "3",
+            "value": "样式3"
+          },
+          {
+            "key": "4",
+            "value": "样式4"
+          },
+          {
+            "key": "5",
+            "value": "样式5"
+          },
+          {
+            "key": "6",
+            "value": "样式6"
+          },
+          {
+            "key": "7",
+            "value": "样式7"
+          },
+          {
+            "key": "8",
+            "value": "样式8"
+          }
+        ]
+      }
+    ]
+  },
+  "moreSettings": {
+    "type": "checkbox",
+    "describe": "",
+    "title": "更多设置",
+    "data": [
+      {
+        "key": "1",
+        "value": "隐藏已售罄/活动结束商品",
+        "subtitle": "隐藏后，活动商品将不在微商城显示",
+        "child": [
+          {
+            "key": "1",
+            "value": "立即隐藏"
+          }
+        ]
+      }
+    ]
+  }
+}
