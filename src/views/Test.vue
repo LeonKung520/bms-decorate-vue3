@@ -5,21 +5,14 @@
     <button @click="increment">increment</button>
   </div>
 </template>
-<script lang="ts">
-import { defineComponent, ref } from 'vue'
 
-export default defineComponent({
-  name: 'Test',
-  setup() {
-    const count = ref<number>(0)
-    const increment = () => {
-      count.value += 1
-    }
-    return { count, increment }
-  }
-})
+<script setup lang="ts">
+import { ref } from 'vue'
+
+const count = ref<number>(0)
+const increment = () => {
+  count.value += 1
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,13 +1,11 @@
 <template>
-axios
+  <p>axios</p>
 </template>
 
-<script>
+<script setup>
 export default {
   name: 'Axios'
 }
 </script>
 
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>

@@ -1,13 +1,11 @@
 <template>
-vuex
+  <p>vuex</p>
 </template>
 
-<script>
+<script setup>
 export default {
   name: 'Vuex'
 }
 </script>
 
-<style lang='scss' scoped>
-
-</style>
+<style lang="scss" scoped></style>
