@@ -18,6 +18,9 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'import/prefer-default-export': 0,
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -26,6 +29,14 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never'
+      }
+    ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/no-unresolved': 0,
+    'no-plusplus': [
+      'off',
+      {
+        allowForLoopAfterthoughts: true
       }
     ]
   }

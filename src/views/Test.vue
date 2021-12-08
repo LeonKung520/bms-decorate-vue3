@@ -1,18 +1,27 @@
 <template>
   <div class="test-container page-container">
     <div class="page-title">Unit Test Page</div>
-    <p>count is: {{ count }}</p>
-    <button @click="increment">increment</button>
+    <p>count is: {{ mainStore['count'] }}</p>
+    <button @click="mainStore['increment']">increment</button>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useCounterStore } from '../stores/counter'
 
-const count = ref<number>(0)
-const increment = () => {
-  count.value += 1
-}
+const mainStore = useCounterStore()
+
+// import { ref } from 'vue'
+// import { defineStore } from 'pinia'
+//
+// export const useCounterStore = defineStore('main', () => {
+//   const count = ref(0)
+//   function increment() {
+//     count.value++
+//   }
+//
+//   return { count, increment }
+// })
 </script>
 
 <style scoped></style>

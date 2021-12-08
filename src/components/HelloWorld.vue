@@ -1,14 +1,5 @@
-<script setup lang="ts">
-import { ref, defineProps } from 'vue'
-
-defineProps<{ msg: string }>()
-const count = ref(0)
-</script>
-
 <template>
   <div>
-    <h1>{{ msg }}</h1>
-
     <p>
       Recommended IDE setup:
       <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -27,7 +18,11 @@ const count = ref(0)
     <button type="button" @click="count++">count is: {{ count }}</button>
   </div>
 </template>
+<script setup lang="ts">
+import { ref } from 'vue'
 
+const count = ref(0)
+</script>
 <style scoped>
 a {
   color: #42b983;

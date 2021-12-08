@@ -11,6 +11,10 @@
     "esModuleInterop": true,
     "lib": ["ES2019", "dom"],
     "types": ["vite/client", "jest"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
