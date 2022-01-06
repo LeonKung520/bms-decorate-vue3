@@ -5,6 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "build-tsc": "vue-tsc --noEmit && vite build",
+    "build:dev":  "vite build --mode development",
+    "build:pro":  "vite build --mode production",
     "serve": "vite preview",
     "format": "prettier --write ./src",
     "lint": "eslint ./src --ect .vue,.js,.ts",
@@ -16,8 +18,10 @@
     "*.{vue,js,ts}": "eslint --fix"
   },
   "dependencies": {
+    "@types/nprogress": "^0.2.0",
     "axios": "^0.24.0",
     "element-plus": "^1.2.0-beta.5",
+    "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.10",
     "vue": "^3.2.16",
     "vue-router": "^4.0.12"

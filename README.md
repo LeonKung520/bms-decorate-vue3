@@ -5,7 +5,7 @@
 
 ## 1. 如何运行
 
-> node版本 `[12.22.4]`
+> node版本 `[12.22.8]`
 
 ### 1.1 开发环境配置
 See [Configuration Reference](https://cli.vuejs.org/config/).

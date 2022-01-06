@@ -1,9 +1,10 @@
-import axios from '@/utils/axios';
+import http from '@/utils/http'
+import * as T from './types'
 
-export function demoAPI({ params }: { params: any }) {
-  return axios({
-    url: '/api/list',
-    method: 'get',
-    params
-  })
+const demoApi: T.IDemoApi = {
+  demo(params) {
+    return http.post('/demo', params)
+  }
+
 }
+export default demoApi
